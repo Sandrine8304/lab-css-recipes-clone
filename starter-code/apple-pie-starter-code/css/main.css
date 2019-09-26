@@ -1,0 +1,73 @@
+header{
+  background: url("../images/apple-pie.jpg") 0 0 no-repeat;
+  background-size: cover;
+  width: auto;
+  max-height: 100%;
+}
+
+h1{
+  color: white;
+}
+
+#grosTitre {
+  height: 500px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#first-section {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px; 
+  margin : 50px 150px;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.centrer {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+}
+
+.other-sections {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px; 
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 150px;
+
+}
+
+h2 {
+  font-size:40px;
+}
+
+#second-image {
+  display:flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+}
+li:before {
+  content: '- ';
+}
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+
+
+
+
